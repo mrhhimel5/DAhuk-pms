@@ -24,10 +24,10 @@ export default async function DashboardPage() {
         <header className="flex flex-col md:flex-row justify-between items-start md:items-center pb-6 border-b border-slate-800 gap-4">
           <div>
             <h1 className="text-3xl font-extrabold tracking-tight text-white">
-              Resort PMS Dashboard
+              Dahuk Tea Resort
             </h1>
             <p className="text-slate-400 text-sm mt-1">
-              Live Room Matrix & Occupancy Overview
+              Live Room Occupancy Overview
             </p>
           </div>
           <div className="flex gap-3">
