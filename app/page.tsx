@@ -1,6 +1,7 @@
 import RoomActions from "@/components/RoomActions";
 import { prisma } from "@/lib/prisma";
 import BookingModal from "@/components/BookingModal";
+import LogoutButton from "@/components/LogoutButton";
 
 export const dynamic = "force-dynamic";
 
@@ -27,11 +28,12 @@ export default async function DashboardPage() {
               Dahuk Tea Resort
             </h1>
             <p className="text-slate-400 text-sm mt-1">
-              Live Room Occupancy Overview
+              Live Room Occupancy Overview and bill
             </p>
           </div>
           <div className="flex gap-3">
             <BookingModal rooms={availableRooms} />
+            <LogoutButton />
           </div>
         </header>
 
